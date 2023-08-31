@@ -1,0 +1,24 @@
+.pricetable{
+	width: 90%;
+	border-collapse: collapse;
+	margin-top: 5%;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
+}
+
+.pricetable td{
+	border: 1px solid #237283;
+	padding: 3px 7px 2px 7px;
+}
+
+.pricetable th{
+	border: 1px solid #237283;
+	padding: 3px 7px 2px 7px;
+}
+
+.pricetable tr:nth-child(odd){
+	background-color: #b3d8e7;
+}
+
+.pricetable tr:hover{
+	background-color: #b3d8e7;
+}

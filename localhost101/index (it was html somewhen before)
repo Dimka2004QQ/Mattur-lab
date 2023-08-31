@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/dom.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>МДК.09.02. Оптимизация веб-приложений</h1>
+        <div class="nav-scroll">
+            <nav class="nav-scroll_items">
+                <a href="#" onclick="linkcontent('html/main.html')" class="nav-scroll_item">Главная</a>
+                <a href="#" onclick="linkcontent('html/01-img.html')" class="nav-scroll_item">1. IMG-base64</a>
+                <a href="#" onclick="linkcontent('html/02-dom.html')" class="nav-scroll_item">2.DOM</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content" id="content">
+        <h3>DOM - объектная модель документа</h3>
+        <p><img src="img/dom.png" class="leftimg"></p>
+    </div>
+
+    <div id="loading" style="display: none;">Идет загрузка ...</div>
+
+    <footer>
+        <div class="text-block">&copy Колледж АлтГУ 2023</div>
+    </footer>
+</body>
+</html>

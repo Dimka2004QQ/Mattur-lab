@@ -1,0 +1,168 @@
+* {
+    padding: 0; 
+    margin: 0;
+    font-family: 'Play', sans-serif;
+}
+
+body {
+    background-color: rgb(170, 170, 170);
+}
+
+.signup1{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    width: 364px;
+    font-size: 14px;
+    margin: 12px 0;
+    padding: 12px 18px;
+    border: unset;
+    outline: none;
+    border-radius: 20px;
+    color: #592bfc;
+    background-color: #98daeb;
+}
+
+input:focus {
+    box-shadow: 1px 1px 2px 0 rgb(88, 86, 213);
+}
+
+button {
+    padding: 10px 0;
+    background: #237283;
+    border: unset;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    margin: 40px 0 20px 0;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.1s ease-in;
+}
+
+button:hover {
+    background-color: #1c5967;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    color: #b7625c;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+    justify-content: center;
+}
+.container-item {
+    max-width: 1170px;
+    margin: 20px auto;
+    padding: 0 15px;
+    display: grid;
+    justify-content: center;
+}
+.card-type-1{
+    background-color: #98daeb;
+    border-radius: 15%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    border: 3px solid;
+    border-color: #b3d8e7;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
+}
+.card-type-text{
+    font-size: 18px;
+    text-align: center;
+    color: #1b1313;
+    font-family: 'Roboto', sans-serif;
+
+    line-height: 30px;
+}
+.card-type-btn{
+    font-size: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.card-type-price{
+    font-size: 16px;
+    text-align: center;
+    color: #1b1313;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+}.card-type-button{
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 5px 40px 4px 50px;
+    font-size: 16px;
+    position: relative;
+}
+.card-type-button::before{
+    content: "\f0b1";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 22px;
+    color: #ffffff;
+}
+
+.auth {
+    background-color: rgb(214, 236, 255);
+    padding: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 8px 4px rgba(34, 60, 80, 0.25);
+-moz-box-shadow: 0px 0px 8px 4px rgba(34, 60, 80, 0.25);
+box-shadow: 0px 0px 8px 4px rgba(34, 60, 80, 0.25);
+}
+
+.auth__button {
+    width: 100%;
+}
+
+.btn {
+    position: relative;
+    width: 400px;
+}
+
+.field {
+    width: 400px;
+    position: relative;
+}
+
+.password-control {
+	position: absolute;
+	top: 22px;
+	right: 14px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../img/eye.png');
+    background-size: 20px 20px; 
+}
+
+.password-control.view {
+	background: url('../img/close_eye.png');
+    background-size: 20px 20px; 
+}
